@@ -1,0 +1,43 @@
+html , body {
+    font-family: 'Dosis', sans-serif;
+    background-image: radial-gradient(circle, #dc3559, #dc2b83, #c83bb0, #9a56db, #1f6ffb);
+}
+
+.container {
+    text-align: center;
+    margin-top: 0px;
+    color: whitesmoke;
+}
+
+p {
+    margin-top: -20px;
+}
+
+button {
+    margin-bottom: 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+button:hover {
+    color: #1F6FFB;
+    font-size: 20px;
+}
+
+
+img {
+    width: 180px;
+    height: 180px;
+    cursor: pointer;
+}
+
+table {
+    margin-left: 25%;
+
+}
+
+td {
+    border: 1px solid #1F6FFB;
+    border-radius: 15px;
+}
