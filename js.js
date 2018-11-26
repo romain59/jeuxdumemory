@@ -83,6 +83,6 @@ function myFunction() {
 
     setTimeout(function(){
 
-        alert("Hello");}, 60000);
+        alert('Fini')
 
-}
+    }, 5000);}
