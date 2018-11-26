@@ -41,3 +41,25 @@ td {
     border: 1px solid #1F6FFB;
     border-radius: 15px;
 }
+
+#modal {
+    height: 500px;
+    width: 60%;
+    background-color: #1F6FFB;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: -600px;
+    left: 20%;
+}
+
+#Reset  {
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    color: #1F6FFB;
+    font-size: 20px;
+    cursor: pointer;
+}

@@ -83,6 +83,10 @@ function myFunction() {
 
     setTimeout(function(){
 
-        alert('Fini')
+        document.getElementById('modal').style.top ='180px';
 
-    }, 5000);}
+    }, 30000);}
+    
+    function ResetModal() {
+        window.location.reload(false);
+    }
