@@ -3,12 +3,6 @@ html , body {
     background-image: radial-gradient(circle, #dc3559, #dc2b83, #c83bb0, #9a56db, #1f6ffb);
 }
 
-.container {
-    text-align: center;
-    margin-top: 0px;
-    color: whitesmoke;
-}
-
 p {
     margin-top: -20px;
 }
@@ -25,21 +19,31 @@ button:hover {
     font-size: 20px;
 }
 
-
 img {
     width: 180px;
     height: 180px;
     cursor: pointer;
-}
-
-table {
-    margin-left: 25%;
-
-}
-
-td {
     border: 1px solid #1F6FFB;
     border-radius: 15px;
+}
+
+span {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 0px;
+    color: whitesmoke;
+}
+
+.container2 {
+    text-align: center;
+    margin-top: 2%;
 }
 
 #modal {
@@ -53,6 +57,7 @@ td {
     position: absolute;
     top: -600px;
     left: 20%;
+    transition: 0.5s;
 }
 
 #Reset  {
@@ -62,4 +67,15 @@ td {
     color: #1F6FFB;
     font-size: 20px;
     cursor: pointer;
+}
+
+.titre, #texte, #Reset, #classement {
+    margin-top: 5%;
+}
+
+#input {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 5px;
 }

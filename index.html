@@ -15,35 +15,37 @@
 
     <h1>Le Jeux du Memory !!</h1><br>
     <p>Ce jeux consiste à trouver toutes les images en double dans un temps imparties d'une minute !!</p>
+    <input id="input" type="text" placeholder="Rentrez Votre Nom de Joueur" autofocus><button onclick="Test()" id="Submit">Envoyer</button>
     <button onclick="myFunction()">Jouer ! </button>
+    <br>
+    <span id="Minute"></span>
+    <span> : </span>
+    <span id="Seconde"></span>
 
 </div>
-<table id="PlanDeJeux">
-    <tr>
-        <td><img src="logo-pokemon-go.png" alt="Dos de Carte"></td>
-        <td><img src="logo-pokemon-go.png" alt="Dos de Carte"></td>
-        <td><img src="logo-pokemon-go.png" alt="Dos de Carte"></td>
-        <td><img src="logo-pokemon-go.png" alt="Dos de Carte"></td>
+<div id="PlanDeJeux" class="container2">
 
-    </tr>
+        <img src="logo-pokemon-go.png" alt="Dos de Carte">
+        <img src="logo-pokemon-go.png" alt="Dos de Carte">
+        <img src="logo-pokemon-go.png" alt="Dos de Carte">
+        <img src="logo-pokemon-go.png" alt="Dos de Carte"><br>
+        <img src="logo-pokemon-go.png" alt="Dos de Carte">
+        <img src="logo-pokemon-go.png" alt="Dos de Carte">
+        <img src="logo-pokemon-go.png" alt="Dos de Carte">
+        <img src="logo-pokemon-go.png" alt="Dos de Carte"><br>
+        <img src="logo-pokemon-go.png" alt="Dos de Carte">
+        <img src="logo-pokemon-go.png" alt="Dos de Carte">
+        <img src="logo-pokemon-go.png" alt="Dos de Carte">
+        <img src="logo-pokemon-go.png" alt="Dos de Carte">
 
-    <tr>
-        <td><img src="logo-pokemon-go.png" alt="Dos de Carte"></td>
-        <td><img src="logo-pokemon-go.png" alt="Dos de Carte"></td>
-        <td><img src="logo-pokemon-go.png" alt="Dos de Carte"></td>
-        <td><img src="logo-pokemon-go.png" alt="Dos de Carte"></td>
-    </tr>
 
-    <tr>
-        <td><img src="logo-pokemon-go.png" alt="Dos de Carte"></td>
-        <td><img src="logo-pokemon-go.png" alt="Dos de Carte"></td>
-        <td><img src="logo-pokemon-go.png" alt="Dos de Carte"></td>
-        <td><img src="logo-pokemon-go.png" alt="Dos de Carte"></td>
-    </tr>
-</table>
+</div>
 
 <div id="modal">
-    <h2>Résultat :</h2>
+    <h2 class="titre">Résultat :</h2>
+    <p id="texte"></p>
+    <h2 class="titre">Classement :</h2>
+    <p id="classement"></p>
     <button id="Reset" onclick="ResetModal()">Rejouer !</button>
 </div>
 
