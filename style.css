@@ -2,6 +2,8 @@ html , body {
     font-family: 'Dosis', sans-serif;
     background-image: radial-gradient(circle, #dc3559, #dc2b83, #c83bb0, #9a56db, #1f6ffb);
     background-size: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 p {
