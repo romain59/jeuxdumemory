@@ -84,7 +84,7 @@ function ProgrammeJeux(CarteNo) {
 
                 if(NbPaireTrouve ==6 ){
 
-                    document.getElementById('modal').style.top ='200px';
+                    document.getElementById('modal').style.top ='90px';
                     document.getElementById('texte').innerHTML = 'Bien Joué vous avez gagné !!';
 
                     clearTimeout(Tps);
@@ -116,7 +116,7 @@ function myFunction() {
 
     myvar = setTimeout(function(){
 
-        document.getElementById('modal').style.top ='180px';
+        document.getElementById('modal').style.top ='110px';
         document.getElementById('texte').innerHTML = 'Désolé le temps est ecoulé, vous avez perdu !!'
 
 
