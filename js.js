@@ -166,7 +166,7 @@ var TimeOut = function () {
 
     if ( minute < 10) {
 
-        minuteDisplay = "0'"+ minute;
+        minuteDisplay = "0"+ minute;
 
     }
     else {
